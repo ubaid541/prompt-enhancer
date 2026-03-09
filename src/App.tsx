@@ -186,7 +186,8 @@ export default function App() {
 
     try {
       const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || '' });
-      const model = "gemini-3.1-pro-preview";
+      // const model = "gemini-3.1-pro-preview";
+      const model = "gemini-2.5-flash";
       
       // Construct conversation history for context
       const chatHistory = newMessages.map(m => ({
