@@ -556,9 +556,7 @@ export default function App() {
                 </button>
               </div>
             </form>
-            <p className="text-[10px] text-center mt-3 opacity-40 uppercase tracking-widest">
-              Powered by Gemini 3.1 Pro • Advanced Prompt Engineering
-            </p>
+           
           </div>
         </div>
       </main>
